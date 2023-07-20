@@ -17,11 +17,7 @@ export class HeroSection extends LitElement {
       }
 
       app-titulo {
-        display: flex;
         align-items: center;
-        align-self: stretch;
-
-        position: relative;
       }
 
       app-logo {
@@ -31,6 +27,9 @@ export class HeroSection extends LitElement {
         position: absolute;
         right: -72px;
         top: -39px;
+        background-image: url('logoo.png');
+
+
       }
 
       img {
@@ -50,7 +49,7 @@ export class HeroSection extends LitElement {
       <div></div>
       <section>
         <app-titulo>
-          <h1>Barbearia <span>Vanguarda</span></h1>
+       
           <app-logo></app-logo>
         </app-titulo>
 
@@ -61,6 +60,7 @@ export class HeroSection extends LitElement {
       <app-paragrafo>
         Obtenha um estilo impecável, do cabelo à barba
       </app-paragrafo>
+      
       
     `;
   }

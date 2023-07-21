@@ -13,7 +13,7 @@ body{
     width: 100%;
     
     margin:0;
-    background-color: var(--tom-1);
+    background-color:white;
 }
 
 
@@ -75,6 +75,11 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+  
+
+
+
 
 /* Esconda o ícone em resoluções maiores */
 @media screen and (min-width: 768px) {

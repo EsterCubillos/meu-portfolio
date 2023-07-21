@@ -40,26 +40,82 @@ export class HeroSection extends LitElement {
       app-paragrafo {
         font-size: 1.25;
       }
+
+      .texto{
+        width: 237px; 
+        height: 40px;
+
+        position: absolute;
+        right: -235px;
+       bottom: -153px;
+
+       top: 50%; /* Para posicionar o texto verticalmente no meio da imagem */
+       left: 40%; /* Para posicionar o texto horizontalmente no meio da imagem */
+       transform: translate(-50%, -50%); /* Para centralizar o texto completamente */
+
+
+       color: #FFF;
+       text-shadow: -1px 1px 2px 0px rgba(251, 242, 242, 0.37);
+        font-family: Inria Serif;
+        font-size: 16px;
+       font-style: normal;
+       font-weight: 300;
+       line-height: normal;
+       padding: 10px; /* Espaçamento interno do texto em relação ao fundo */
+      }
+
+      .feather{
+        background-color:pink;
+      }
+
+      
+
+      
+      
+
+
+    
+       
+      
+     
    
     `,
   ];
 
   render() {
     return html`
-      <div></div>
+      <div>
       <section>
+     
         <app-titulo>
-       
+        
           <app-logo></app-logo>
         </app-titulo>
 
         <app-quadro>
-          <img src="imagembarbearia.png" alt="imagem1" />
-        </app-quadro>
+          <img src="fotobolo.jpg" alt="imagem1" />
+          <div class="texto">Confeitaria artesanal, onde os doces ganham vida 
+          com amor e dedicação.</div>
+        </app-quadro> </div>
       </section>
-      <app-paragrafo>
-        Obtenha um estilo impecável, do cabelo à barba
-      </app-paragrafo>
+
+
+
+
+      
+       <app-paragrafo>
+       Bem-vindo ao nosso mundo açucarado de delícias!
+       Neste doce refúgio online, convidamos você a explorar os segredos e encantos da confeitaria. Prepare-se para se perder em aromas irresistíveis, cores vibrantes e sabores divinos que irão despertar todos os seus sentidos.
+       </app-paragrafo>
+
+       <app-botao></app-botao>
+
+
+
+      
+      
+
+      
       
       
     `;

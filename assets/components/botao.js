@@ -8,7 +8,7 @@ export class Botao extends LitElement {
       }
 
       ::slotted(button),button,::slotted(a) {
-        display: inline-flex;
+        display: flex;
         width: 132px;
         height: 31px;
         padding: 10px 24px;
@@ -20,24 +20,22 @@ export class Botao extends LitElement {
         width: inherit;
 
         border-radius: 8px;
-        background-color: var(
-          --button-background,
-          color-mix(in srgb, white 20%, var(--tom-2, #b38962))
+        border-radius: 11px;
+        background: #EEABB3;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.79);
         );
 
         box-shadow: 0px 2px 4px 0px #665e57;
 
         /* tipografia */
 
-        color: var(
-          --color,
-          color-mix(in srgb, black 20%, var(--tom-3, #664e38))
-        );
+        color: #FFF;
         text-align: center;
-        font-family: var(--fonte-titulo);
-        font-size: 1rem;
+       font-family: Inria Serif;
+        font-size: 15px;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 400;
+        line-height: normal;
         line-height: normal;
         white-space: nowrap;
         text-decoration:none;
@@ -59,7 +57,7 @@ export class Botao extends LitElement {
   ];
 
   render() {
-    return html`<slot><button>Pressione</button></slot>
+    return html`<slot><button> Conheça nossas delicias</button></slot>
     
     
   

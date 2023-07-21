@@ -4,18 +4,11 @@ export class Paragrafo extends LitElement {
   static styles = [
     css`
       :host {
-        display: block;
-        color: var(--cor-secundria, #665e57);
-        font-family: var(--fonte-corpo);
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 100%;
-      }
-
-      p {
-        margin: 0;
-      }
+        width: 336px;
+        height: 133px;
+        letter-spacing: 2px;
+        
+        
     `,
   ];
 

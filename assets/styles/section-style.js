@@ -10,9 +10,9 @@ export const section = css`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4.375rem;
+    gap: 50px;
 
-    padding: 2rem;
+    padding: 1rem;
     overflow: hidden;
     position: relative;
   }

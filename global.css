@@ -10,8 +10,6 @@
 }
 
 body{
-    width: 100%;
-    
     margin:0;
     background-color:rgb(250, 237, 237);
 }
@@ -67,8 +65,10 @@ body{
   }
 
   feather-icon{
-  width: 130px;
-  height: 30px;
+    display:flex;
+    justify-content:space-evenly;
+  width: 140px;
+  height: 23px;
   color: #d6383866; /* Cor de fundo do ícone (pode ser transparente se o SVG tiver cores) */
   border-radius: 5px;
   cursor: pointer;

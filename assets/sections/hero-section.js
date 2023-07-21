@@ -9,7 +9,7 @@ export class HeroSection extends LitElement {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 35px;
+        gap:1rem;
       }
       span {
         color: var(--tom-3);

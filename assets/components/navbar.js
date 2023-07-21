@@ -26,6 +26,7 @@ export class Navbar extends LitElement {
      
       feather-icon{
         cursor: pointer;
+        color:;
 
       }
     `,

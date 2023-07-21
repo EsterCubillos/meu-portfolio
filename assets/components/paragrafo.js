@@ -4,10 +4,15 @@ export class Paragrafo extends LitElement {
   static styles = [
     css`
       :host {
+        display:flex;
         width: 336px;
         height: 133px;
         letter-spacing: 2px;
         
+
+        p {
+          margin: 0;
+        }
         
     `,
   ];

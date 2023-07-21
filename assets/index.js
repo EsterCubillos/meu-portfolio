@@ -8,6 +8,7 @@ export * from './components/botao'
 export * from './components/bolinhas'
 export * from './components/mapa'
 export * from './components/navbar'
+export * from './components/cake'
 
 
 //Seções

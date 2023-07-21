@@ -10,7 +10,10 @@ export class Quadro extends LitElement {
         position: absolute; /* Para posicionar a imagem de forma absoluta dentro do container */
         top: -50px; /* Ajuste esse valor negativo para mover a imagem para cima. Quanto maior o valor negativo, mais a imagem se moverá para cima */
         left: 0; /* Para garantir que a imagem fique alinhada à esquerda */
-
+        
+        
+        
+        
 
 
 

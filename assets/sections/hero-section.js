@@ -9,7 +9,7 @@ export class HeroSection extends LitElement {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 1rem;
+        gap: 35px;
       }
       span {
         color: var(--tom-3);
@@ -18,6 +18,7 @@ export class HeroSection extends LitElement {
 
       app-titulo {
         align-items: center;
+        color:#CA1841;
       }
 
       app-logo {
@@ -39,6 +40,7 @@ export class HeroSection extends LitElement {
 
       app-paragrafo {
         font-size: 1.25;
+        
       }
 
       .texto{
@@ -71,6 +73,8 @@ export class HeroSection extends LitElement {
       
 
       
+
+      
       
 
 
@@ -96,19 +100,24 @@ export class HeroSection extends LitElement {
           <img src="fotobolo.jpg" alt="imagem1" />
           <div class="texto">Confeitaria artesanal, onde os doces ganham vida 
           com amor e dedicação.</div>
-        </app-quadro> </div>
+        </app-quadro> 
+        <app-titulo> 
+        
+        </app-titulo>
+
+
+        </div>
       </section>
-
-
-
-
-      
+     
        <app-paragrafo>
        Bem-vindo ao nosso mundo açucarado de delícias!
        Neste doce refúgio online, convidamos você a explorar os segredos e encantos da confeitaria. Prepare-se para se perder em aromas irresistíveis, cores vibrantes e sabores divinos que irão despertar todos os seus sentidos.
        </app-paragrafo>
 
+
        <app-botao></app-botao>
+       
+       
 
 
 

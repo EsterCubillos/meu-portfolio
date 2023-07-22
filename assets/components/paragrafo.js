@@ -9,7 +9,6 @@ export class Paragrafo extends LitElement {
         height: 133px;
         letter-spacing: 2px;
         
-
         p {
           margin: 0;
         }

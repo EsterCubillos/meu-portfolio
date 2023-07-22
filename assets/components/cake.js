@@ -4,6 +4,7 @@ export class Logo extends LitElement {
   static styles = [
     css`
       :host {
+        
         width: 42px;
         height: 42px;
 

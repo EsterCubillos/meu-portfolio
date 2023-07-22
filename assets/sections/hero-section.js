@@ -7,9 +7,10 @@ export class HeroSection extends LitElement {
     css`
       section {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap:1rem;
+        width: 334px;
+        height: 271px;
+        flex-direction:column-reverse;
+        padding:
       }
       span {
         color: var(--tom-3);
@@ -40,6 +41,7 @@ export class HeroSection extends LitElement {
 
       app-paragrafo {
         font-size: 1.25;
+        color:black;
         
       }
 
@@ -70,19 +72,17 @@ export class HeroSection extends LitElement {
         background-color:pink;
       }
 
-      
-
-      
-
-      
-      
-
+      .container {
+        height: 200px;
+        padding: 20px;
+    }
+    
+    /* Selecione o elemento que deseja mover e adicione uma margem superior negativa para movê-lo para cima */
+    .moveme {
+        margin-top: -128px; /* Ajuste o valor conforme necessário */
+    }
 
     
-       
-      
-     
-   
     `,
   ];
 
@@ -109,13 +109,18 @@ export class HeroSection extends LitElement {
         </div>
       </section>
      
-       <app-paragrafo>
-       Bem-vindo ao nosso mundo açucarado de delícias!
-       Neste doce refúgio online, convidamos você a explorar os segredos e encantos da confeitaria. Prepare-se para se perder em aromas irresistíveis, cores vibrantes e sabores divinos que irão despertar todos os seus sentidos.
+       <app-paragrafo> 
+       <div class="container">
+       
+         <p class= "moveme"> Bem-vindo ao nosso mundo açucarado de delícias!
+         Neste doce refúgio online, convidamos você a explorar os segredos e encantos da confeitaria. Prepare-se para se perder em aromas irresistíveis, cores vibrantes e sabores divinos que irão despertar todos os seus sentidos.
+         </p>
+        </div>
+       
        </app-paragrafo>
-
-
        <app-botao></app-botao>
+
+       
        
        
 

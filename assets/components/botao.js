@@ -57,7 +57,7 @@ export class Botao extends LitElement {
   ];
 
   render() {
-    return html`<slot><button> Conheça nossas delicias</button></slot>
+    return html`<slot><button> Saiba  Mais </button></slot>
     
     
   

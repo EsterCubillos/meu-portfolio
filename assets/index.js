@@ -11,6 +11,8 @@ export * from './components/navbar'
 export * from './components/cake'
 
 
+
+
 //Seções
 export * from './sections/hero-section'
 export * from './sections/a-barbearia-section'

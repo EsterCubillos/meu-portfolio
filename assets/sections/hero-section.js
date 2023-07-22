@@ -42,6 +42,7 @@ export class HeroSection extends LitElement {
       app-paragrafo {
         font-size: 1.25;
         color:black;
+  
         
       }
 
@@ -82,6 +83,7 @@ export class HeroSection extends LitElement {
     .moveme {
         margin-top: -169px; /* Ajuste o valor conforme necessário */
         
+        
     }
 
     app-botao{
@@ -101,6 +103,13 @@ export class HeroSection extends LitElement {
     div{
       display:flex;
       flex-direction: column
+    }
+
+
+    .venha{
+      display: flex;
+  flex-direction: column;
+  align-items: center;
     }
 
     
@@ -137,9 +146,11 @@ export class HeroSection extends LitElement {
          Neste doce refúgio online, convidamos você a explorar os segredos e encantos da confeitaria. Prepare-se para se perder em aromas irresistíveis, cores vibrantes e sabores divinos que irão despertar todos os seus sentidos.
          </p>
          <app-cake></app-cake>
+         
          <app-botao></app-botao>
          
         </div>
+
        
        </app-paragrafo>
        

@@ -55,11 +55,14 @@ body{
    
   }
   app-titulo{
-    width: 185px;
+    width: 204px;
     height: 13px;
     flex-shrink: 0;
     text-align:right;
-    color:#4f0718;
+    color:#0c0c0c;
+    
+   
+
 
  
   }
@@ -72,6 +75,7 @@ body{
   color: #d6383866; /* Cor de fundo do ícone (pode ser transparente se o SVG tiver cores) */
   border-radius: 5px;
   cursor: pointer;
+  justify-content: flex-end
  
 }
 

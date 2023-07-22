@@ -71,41 +71,56 @@ export class ServicosSectio extends LitElement {
       }
 
       app-quadro {
-        width: 165px;
-        height: 320px;
+        width: 358px;
+        height: 257px;
+        margin-bottom: -209px;
+    
+    }
 
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
-      }
+    .salgados img{
+      width: 358px;
+    height: 257px;
+    margin-bottom: -209px;
+    }
+
+    .textos{
+      position:relative;
+        font-size: 16px;
+        left: -117px;
+        top: -35px;
+        color: #FFF;
+        text-shadow: -1px 1px 2px 0px rgba(251, 242, 242, 0.37);
+       font-family: Inria Serif;
+        font-size: 16px;
+    }
+
+
+
+     
     `,
   ];
 
   render() {
     return html`
-      <app-paragrafo class="titulo">
-        Estilo,cuidado e execelência em cada <span>corte</span>.
-      </app-paragrafo>
+     
+    
 
       <section>
+   
+        
         <app-quadro>
-          <img src="servicos-1.jpg" alt="imagem" />
+          <img class= salgados src="salgados.jpg" alt="imagem" />
+          <div class="textos">SALGADOS
+    
+          </div>
         </app-quadro>
-        <aside>
-          <article>
-            <app-paragrafo>Corte</app-paragrafo>
-            <app-paragrafo class="descricao"
-              >Social, degradê, surfista, militar, razor part,
-              undercut</app-paragrafo
-            >
-          </article>
-          <app-botao>Ver mais</app-botao>
-        </aside>
+       
+          
+          
+        
       </section>
 
-      <div>
-        <app-bolinhas formato="fila-vazia"></app-bolinhas>
-        <app-bolinhas formato="fila-preenchida"></app-bolinhas>
-      </div>
+     
     `;
   }
 }

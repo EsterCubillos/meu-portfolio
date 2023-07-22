@@ -6,7 +6,7 @@ export class Titulo extends LitElement {
       :host {
         color: #050404;
         font-family: Inria Serif;
-        font-size: 13px;
+        font-size: 16px;
         font-style: normal;
         font-weight:normal;
         line-height: normal;

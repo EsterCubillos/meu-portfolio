@@ -9,7 +9,7 @@ export class Logo extends LitElement {
         height: 42px;
 
 
-        background-color:black;
+        background-color:#000000cc;
 
         -webkit-mask: url('cake.svg') no-repeat center;
         mask: url('cake.svg') no-repeat center;

@@ -133,11 +133,14 @@ export class ABarbeariaSection extends LitElement {
         <div class="image-container">
         <img src="sobremesas.jpeg" alt="Imagem 1">
         <div class="sobremesas">SOBREMESAS
+    
           </div>
         
          </div>
+
       </appq>
     </section>
+
     
    
      

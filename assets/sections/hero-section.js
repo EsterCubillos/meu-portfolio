@@ -73,13 +73,34 @@ export class HeroSection extends LitElement {
       }
 
       .container {
+        display:flex;
         height: 200px;
         padding: 20px;
     }
     
     /* Selecione o elemento que deseja mover e adicione uma margem superior negativa para movê-lo para cima */
     .moveme {
-        margin-top: -128px; /* Ajuste o valor conforme necessário */
+        margin-top: -169px; /* Ajuste o valor conforme necessário */
+        
+    }
+
+    app-botao{
+      display:flex;
+      justify-content:center;
+      
+
+    }
+    app-cake{
+    width: 42px;
+    height: 214px;
+    position: absolute;
+    right: 160px;
+    top:bottom: 10px;
+    }
+
+    div{
+      display:flex;
+      flex-direction: column
     }
 
     
@@ -115,10 +136,13 @@ export class HeroSection extends LitElement {
          <p class= "moveme"> Bem-vindo ao nosso mundo açucarado de delícias!
          Neste doce refúgio online, convidamos você a explorar os segredos e encantos da confeitaria. Prepare-se para se perder em aromas irresistíveis, cores vibrantes e sabores divinos que irão despertar todos os seus sentidos.
          </p>
+         <app-cake></app-cake>
+         <app-botao></app-botao>
+         
         </div>
        
        </app-paragrafo>
-       <app-botao></app-botao>
+       
 
        
        

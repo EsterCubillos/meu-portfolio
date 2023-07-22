@@ -4,7 +4,7 @@ export class Botao extends LitElement {
   static styles = [
     css`
       :host {
-        display: block;
+        display: flex;
       }
 
       ::slotted(button),button,::slotted(a) {

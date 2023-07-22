@@ -75,6 +75,47 @@ export class ABarbeariaSection extends LitElement {
        line-height: normal;
        padding: 10px; /* Espaçamento interno do texto em relação ao fundo */
       }
+
+      .image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .image-container img {
+        width: 358px;
+        height: 257px;
+        margin-bottom: -209px; /* Espaço entre as imagens */
+      }
+      
+      /* Mover a segunda imagem para baixo em 20 pixels */
+      .image-container img:nth-child(2) {
+        margin-top: 20px;
+      }
+
+      .sobremesas{
+        position:relative;
+        font-size: 16px;
+        left: -117px;
+        top: -35px;
+        color: #FFF;
+        text-shadow: -1px 1px 2px 0px rgba(251, 242, 242, 0.37);
+       font-family: Inria Serif;
+        font-size: 16px;
+        
+ 
+      
+        
+
+      }
+      
+
+
+      
+      
+
+      
+      
     `,
   ];
 
@@ -87,8 +128,17 @@ export class ABarbeariaSection extends LitElement {
       <div class="bolos">BOLOS
           </div>
       <img src="imagembolo.jpg" alt="imagem1" />
-     
+      </app-quadro>
+      
+        <div class="image-container">
+        <img src="sobremesas.jpeg" alt="Imagem 1">
+        <div class="sobremesas">SOBREMESAS
+          </div>
+        
+         </div>
+      </appq>
     </section>
+    
    
      
     `;

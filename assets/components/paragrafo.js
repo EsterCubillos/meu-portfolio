@@ -10,7 +10,7 @@ export class Paragrafo extends LitElement {
         letter-spacing: 2px;
         
         p {
-          margin: 0;
+          margin:0;
         }
         
     `,
